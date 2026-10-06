@@ -230,3 +230,4 @@ logs/
 *.bam
 *.bai
 *.vcf.gz
+resources/
