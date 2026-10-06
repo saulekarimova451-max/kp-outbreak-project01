@@ -16,7 +16,7 @@ rule fastqc_raw:
     conda:
         "../envs/qc.yaml"
     shell:
-        "mkdir -p {output} && fastqc -t {threads} -o {output} {input.r1} {input.r2} > {log} 2>&1"
+        "mkdir -p {output} && fastqc -t {threads} --outdir {output} {input.r1} {input.r2} > {log} 2>&1"
 
 
 rule fastp:
@@ -64,7 +64,7 @@ rule fastqc_trimmed:
     conda:
         "../envs/qc.yaml"
     shell:
-        "mkdir -p {output} && fastqc -t {threads} -o {output} {input.r1} {input.r2} > {log} 2>&1"
+        "mkdir -p {output} && fastqc -t {threads} --outdir {output} {input.r1} {input.r2} > {log} 2>&1"
 
 
 rule seqkit_illumina:
