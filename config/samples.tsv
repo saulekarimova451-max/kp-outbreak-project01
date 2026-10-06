@@ -1,0 +1,9 @@
+isolate	illumina_run	illumina_biosample	illumina_model	illumina_coverage_x	ont_run	ont_biosample	ont_model	ont_coverage_x	strain	biosample_isolate	collection_date	isolation_source	host	host_disease	geo_loc_name	collected_by	sample_name
+0326575	SRR33529057	SAMN48407216	Illumina HiSeq 4000	150	SRR33186514	SAMN48004372	GridION	165	ST395	NDM-1- NDM-5	2024-05-02	Rectal swab			United Kingdom: Birmingham	University Hospitals Birmingham	
+0326576	SRR33529056	SAMN48407217	Illumina HiSeq 4000	135	SRR33186513	SAMN48004373	GridION	153	ST395	NDM-1; NDM-1	2024-04-26	urine			United Kingdom: Birmingham	University Hospitals Birmingham	
+0326580	SRR33529055	SAMN48407218	Illumina HiSeq 4000	143	SRR33186512	SAMN48004374	GridION	252	ST395	NDM-1 : NDM-5	2024-05-05	Rectal swab			United Kingdom: Birmingham	University Hospitals Birmingham	
+0327126	SRR33529054	SAMN48407219	Illumina HiSeq 4000	111	SRR33186511	SAMN48004375	GridION	175	ST395	NDM-1;NDM-5	2024-05-07	Rectal swab			United Kingdom: Birmingham	University Hospitals Birmingham	
+0327127	SRR33529053	SAMN48407220	Illumina HiSeq 4000	107	SRR33186510	SAMN48004376	GridION	395	ST395	NDM-24;NDM-5	2024-05-07	Rectal swab			United Kingdom: Birmingham	University Hospitals Birmingham	
+0327436-KPC	SRR33529052	SAMN48407221	Illumina HiSeq 4000	123	SRR33186509	SAMN48004377	GridION	261	ST395	KPC-2;NDM-1;NDM-4	2024-05-14	Rectal swab			United Kingdom: Birmingham	University Hospitals Birmingham	
+0327436-NDM	SRR33529051	SAMN48407222	Illumina HiSeq 4000	149	SRR33186508	SAMN48004378	GridION	144	ST395	NDM-1	2024-05-08	Rectal swab			United Kingdom: Birmingham	University Hospitals Birmingham	
+6257373	SRR33529050	SAMN48407223	Illumina HiSeq 4000	107	SRR33186507	SAMN48004379	GridION	93	ST395	NDM-4;NDM-5;NDM-5	2024-07-10	urine			United Kingdom: Birmingham	University Hospitals Birmingham	

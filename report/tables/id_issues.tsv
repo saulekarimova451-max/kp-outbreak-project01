@@ -1,0 +1,26 @@
+issue_type	record	detail	how_resolved
+split_biosample	0326575	Illumina SAMN48407216 vs Nanopore SAMN48004372	linked by shared sample name; both accessions kept in samples.tsv
+name_suffix	0326575	'0326575_trimmed' vs '0326575_final'	processing-stage suffixes (_trimmed/_final) stripped for matching
+missing_metadata	0326575	host is empty or 'missing'	left blank; noted in report
+split_biosample	0326576	Illumina SAMN48407217 vs Nanopore SAMN48004373	linked by shared sample name; both accessions kept in samples.tsv
+name_suffix	0326576	'0326576_trimmed' vs '0326576_final'	processing-stage suffixes (_trimmed/_final) stripped for matching
+missing_metadata	0326576	host is empty or 'missing'	left blank; noted in report
+split_biosample	0326580	Illumina SAMN48407218 vs Nanopore SAMN48004374	linked by shared sample name; both accessions kept in samples.tsv
+name_suffix	0326580	'0326580_trimmed' vs '0326580_final'	processing-stage suffixes (_trimmed/_final) stripped for matching
+missing_metadata	0326580	host is empty or 'missing'	left blank; noted in report
+split_biosample	0327126	Illumina SAMN48407219 vs Nanopore SAMN48004375	linked by shared sample name; both accessions kept in samples.tsv
+name_suffix	0327126	'0327126_trimmed' vs '0327126_final'	processing-stage suffixes (_trimmed/_final) stripped for matching
+missing_metadata	0327126	host is empty or 'missing'	left blank; noted in report
+split_biosample	0327127	Illumina SAMN48407220 vs Nanopore SAMN48004376	linked by shared sample name; both accessions kept in samples.tsv
+name_suffix	0327127	'0327127_trimmed' vs '0327127_final'	processing-stage suffixes (_trimmed/_final) stripped for matching
+missing_metadata	0327127	host is empty or 'missing'	left blank; noted in report
+split_biosample	0327436-KPC	Illumina SAMN48407221 vs Nanopore SAMN48004377	linked by shared sample name; both accessions kept in samples.tsv
+name_suffix	0327436-KPC	'0327436-KPC_trimmed' vs '0327436-KPC_final'	processing-stage suffixes (_trimmed/_final) stripped for matching
+missing_metadata	0327436-KPC	host is empty or 'missing'	left blank; noted in report
+split_biosample	0327436-NDM	Illumina SAMN48407222 vs Nanopore SAMN48004378	linked by shared sample name; both accessions kept in samples.tsv
+name_suffix	0327436-NDM	'0327436-NDM_trimmed' vs '0327436-NDM_final'	processing-stage suffixes (_trimmed/_final) stripped for matching
+missing_metadata	0327436-NDM	host is empty or 'missing'	left blank; noted in report
+split_biosample	6257373	Illumina SAMN48407223 vs Nanopore SAMN48004379	linked by shared sample name; both accessions kept in samples.tsv
+name_suffix	6257373	'6257373_trimmed' vs '6257373_final'	processing-stage suffixes (_trimmed/_final) stripped for matching
+missing_metadata	6257373	host is empty or 'missing'	left blank; noted in report
+shared_sample_prefix	0327436	0327436-KPC, 0327436-NDM share one sample number	treated as separate isolates (likely one patient/specimen, two strains); checked by SNP distance
