@@ -1,0 +1,8 @@
+name: amr
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - blast
+  - abricate
+prefix: /home/asus/miniforge3/envs/amr

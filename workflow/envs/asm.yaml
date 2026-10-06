@@ -1,0 +1,9 @@
+name: asm
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - shovill
+  - quast
+  - flye
+prefix: /home/asus/miniforge3/envs/asm

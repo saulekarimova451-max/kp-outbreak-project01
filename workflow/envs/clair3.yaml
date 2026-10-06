@@ -1,0 +1,7 @@
+name: clair3
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - clair3
+prefix: /home/asus/miniforge3/envs/clair3

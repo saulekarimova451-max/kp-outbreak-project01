@@ -1,0 +1,9 @@
+name: snippy
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - mlst
+  - snippy
+  - snp-dists
+prefix: /home/asus/miniforge3/envs/snippy

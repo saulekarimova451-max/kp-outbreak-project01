@@ -1,0 +1,10 @@
+name: phylo
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - snp-dists
+  - snp-sites
+  - iqtree
+  - gubbins
+prefix: /home/asus/miniforge3/envs/phylo

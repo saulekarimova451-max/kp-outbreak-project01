@@ -24,4 +24,6 @@ dependencies:
   - fastqc
   - blast
   - snakemake
+  - wgsim
+  - ncbi-datasets-cli
 prefix: /home/asus/miniforge3/envs/kp
