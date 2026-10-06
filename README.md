@@ -1,7 +1,7 @@
 # *Klebsiella pneumoniae* hospital outbreak: an Illumina + Nanopore genomic investigation
 
 Course project 01 ("The Outbreak Investigation"), Introduction to Bioinformatics, Astana IT University.
-Author: *[your name]* (individual project, approved by the instructor).
+Author: *Saule Karimova*
 
 ## The question and the answer
 
@@ -15,7 +15,7 @@ Author: *[your name]* (individual project, approved by the instructor).
 | **One isolate lost its resistance plasmid.** | 0327436-NDM carries no carbapenemase and lacks sul1, dfrA12, mph(A), qnrB and aadA2; its genome is about 300 kb smaller. |
 | **Nanopore alone would have missed the outbreak** with this data. | Nanopore-only SNP distances: 36 to 245; 0 of 28 pairs linked. The reads are short (N50 about 0.8 kb) and Q13.7. Illumina remains necessary for SNP-level transmission calls. |
 
-Full interpretation: `report/` (report PDF, figures, tables). Running notes: `report/notes.md`.
+Full interpretation: `report/` . Running notes: `report/notes.md`.
 
 ## Data
 
@@ -45,7 +45,7 @@ conda activate kp
 
 Every analysis tool is installed automatically by Snakemake into its own environment (`workflow/envs/*.yaml`; exact versions in `workflow/envs/locked/`).
 
-## Quick test (about 20 to 40 minutes, mostly installing tools)
+## Quick test 
 
 From a fresh clone, on the small dataset in `test/` (2 isolates, ~5x coverage):
 
@@ -57,15 +57,15 @@ snakemake --sdm conda --cores 2 test --configfile config/test.yaml
 
 Success = `results/qc/multiqc_report.html`, and Illumina and Nanopore variant files for both test isolates.
 
-## Full analysis (one command after downloading the data)
+## Full analysis
 
 ```bash
-# 1. metadata and reads (12 GB; resumable, md5-verified)
+
 python scripts/fetch_metadata.py PRJNA1251496
 python scripts/build_samples.py PRJNA1251496
 python scripts/fetch_reads.py data/meta/PRJNA1251496_ena_runs.tsv data/raw
 
-# 2. everything else: QC, SNPs, tree, Nanopore, resistance genes, validation, figures
+
 snakemake --sdm conda --cores 4
 ```
 
