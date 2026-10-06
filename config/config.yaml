@@ -1,0 +1,21 @@
+
+
+dataset:
+  bioproject: PRJNA1251496
+  organism: Klebsiella pneumoniae
+  genome_size: 5500000
+
+transmission:
+  snp_linked: 21        
+  snp_unrelated: 50     
+
+qc:
+  min_base_quality: 20
+  min_read_length_illumina: 50
+  min_read_length_ont: 1000
+  min_mean_depth: 30
+  min_breadth_10x: 0.90
+  min_mapping_rate: 0.80
+
+resources:
+  threads: 8
