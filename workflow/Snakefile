@@ -7,6 +7,9 @@
 # Tables and figures:          snakemake --sdm conda --cores 8 figures
 # Nanopore analysis:           snakemake --sdm conda --cores 8 ont
 # Resistance genes (BLAST):    snakemake --sdm conda --cores 8 amr
+# Accuracy test (simulated):   snakemake --sdm conda --cores 8 validate
+# Runtime table (run last):    snakemake --sdm conda --cores 8 runtime
+# Quick test on tiny data:     snakemake --sdm conda --cores 2 test --configfile config/test.yaml
 # See what would run (no run): snakemake -n
 #
 # Inputs : config/config.yaml (thresholds), config/samples.tsv (one row per isolate),
@@ -69,6 +72,8 @@ AMR = [
     "report/tables/amr_vs_ncbi.tsv",
     "report/figures/amr_genes.png",
 ]
+VALIDATE = ["report/tables/validation_snippy.tsv"]
+RUNTIME = ["report/tables/runtime.tsv", "report/figures/runtime.png"]
 FIGURES = [
     "report/tables/snp_pairs.tsv",
     "report/tables/clusters.tsv",
@@ -86,6 +91,8 @@ rule all:
         ONT,
         AMR,
         FIGURES,
+        VALIDATE,
+        RUNTIME,
 
 
 rule qc_illumina:
@@ -118,8 +125,27 @@ rule figures:
         FIGURES,
 
 
+rule validate:
+    input:
+        VALIDATE,
+
+
+rule runtime:
+    input:
+        RUNTIME,
+
+
+rule test:
+    """Small end-to-end check on test/ data: QC, Illumina and Nanopore variant calls for 2 isolates."""
+    input:
+        "results/qc/multiqc_report.html",
+        expand("results/snippy/{isolate}/snps.vcf", isolate=ISOLATES),
+        expand("results/ont/clair3/{isolate}/merge_output.vcf.gz", isolate=ISOLATES),
+
+
 include: "rules/qc.smk"
 include: "rules/map.smk"
 include: "rules/report.smk"
 include: "rules/ont.smk"
 include: "rules/amr.smk"
+include: "rules/validate.smk"

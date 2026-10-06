@@ -1,0 +1,6 @@
+name: sim
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - wgsim

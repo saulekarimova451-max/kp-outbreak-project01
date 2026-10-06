@@ -43,6 +43,12 @@ RULES = [
     ("Colistin", r"^MCR-"),
 ]
 INTRINSIC = r"(efflux|regulator)"
+# Chromosomal (intrinsic) K. pneumoniae genes: present in every isolate, not acquired, not used for prediction.
+INTRINSIC_NAMES = (r"^(arnT|eptB|ompA|OmpK|Klebsiella pneumoniae|Kpn[EFGH]|mdt|fosA|oqx|emrD|acr|marA|ramA|soxS|"
+                   r"tolC|msbA|H-NS|baeR|cpxA|golS|LEN-|OKP-|SHV-(1|11|26|28|182)\b)")
+# Same gene, different name in CARD vs NCBI AMRFinderPlus
+SYNONYMS = {"brpmbl": "ble", "mrxa": "mrx"}
+NCBI_INTRINSIC = {"fosa", "oqxa", "oqxb", "emrd", "shv"}
 
 
 def card_name(sseqid, aro_index):
@@ -78,7 +84,14 @@ def best_hits(df):
 def norm(gene):
     g = gene.lower().replace("bla", "")
     g = re.sub(r"[^a-z0-9]", "", g)
-    return g
+    return SYNONYMS.get(g, g)
+
+
+def gene_family(gene):
+    """Gene family = name without the allele number: blaNDM-5 -> ndm, aac(6')-Ib9 -> aac6ib, sul1 -> sul."""
+    g = norm(gene)
+    g = re.sub(r"(?<=[a-z])\d+$", "", g) if not g.startswith(("aac", "aph", "ant")) else re.sub(r"\d+$", "", g)
+    return SYNONYMS.get(g, g)
 
 
 def main():
@@ -118,7 +131,8 @@ def main():
             row = {"sample": sample, "contig": h.qseqid, "gene": name, "aro": a,
                    "identity": round(h.pident, 1), "coverage": round(h.coverage, 1),
                    "gene_family": family, "mechanism": mech,
-                   "intrinsic_or_efflux": bool(re.search(INTRINSIC, f"{mech} {family}", re.I))}
+                   "intrinsic_or_efflux": bool(re.search(INTRINSIC, f"{mech} {family}", re.I)
+                                               or re.search(INTRINSIC_NAMES, name, re.I))}
             if info is not None and h.qseqid in info.index:
                 row["contig_length"] = int(info.loc[h.qseqid, "length"])
                 row["contig_circular"] = info.loc[h.qseqid, "circ."]
@@ -149,15 +163,24 @@ def main():
         iso = smp.loc[r["BioSample"], "isolate"] if r["BioSample"] in smp.index else None
         if iso is None or iso not in samples:
             continue
-        theirs = {norm(x.split("=")[0]) for x in str(r["AMR genotypes"]).split(",")
-                  if x and not x.endswith("=POINT")}
-        ours = {norm(n) for n in acquired.loc[acquired["sample"] == iso, "gene"]}
-        comp.append({"isolate": iso, "ncbi_acquired_genes": len(theirs), "our_acquired_genes": len(ours),
-                     "both": len(theirs & ours),
-                     "ncbi_only": ", ".join(sorted(theirs - ours)), "ours_only": ", ".join(sorted(ours - theirs)),
+        ncbi_names = [x.split("=")[0] for x in str(r["AMR genotypes"]).split(",") if x and not x.endswith("=POINT")]
+        theirs = {norm(x) for x in ncbi_names if gene_family(x) not in NCBI_INTRINSIC}
+        ours_names = acquired.loc[acquired["sample"] == iso, "gene"].tolist()
+        ours = {norm(n) for n in ours_names}
+        f_theirs = {gene_family(x) for x in ncbi_names if gene_family(x) not in NCBI_INTRINSIC}
+        f_ours = {gene_family(n) for n in ours_names}
+        comp.append({"isolate": iso,
+                     "families_ncbi": len(f_theirs), "families_ours": len(f_ours),
+                     "families_both": len(f_theirs & f_ours),
+                     "families_ncbi_only": ", ".join(sorted(f_theirs - f_ours)),
+                     "families_ours_only": ", ".join(sorted(f_ours - f_theirs)),
+                     "alleles_both": len(theirs & ours),
+                     "alleles_ncbi_only": ", ".join(sorted(theirs - ours)),
+                     "alleles_ours_only": ", ".join(sorted(ours - theirs)),
                      "ncbi_point_mutations": ", ".join(x.split("=")[0] for x in str(r["AMR genotypes"]).split(",")
                                                       if x.endswith("=POINT"))})
-    pd.DataFrame(comp).to_csv(tables / "amr_vs_ncbi.tsv", sep="\t", index=False)
+    comp = pd.DataFrame(comp)
+    comp.to_csv(tables / "amr_vs_ncbi.tsv", sep="\t", index=False)
 
     # Figure: presence/absence of acquired genes
     if not acquired.empty:
@@ -178,6 +201,10 @@ def main():
         fig.savefig(figures / "amr_genes.png", dpi=200)
 
     print("\nPredicted antibiogram:\n" + abg.to_string(index=False))
+    if len(comp):
+        print("\nGene families vs NCBI AMRFinderPlus (acquired genes):")
+        print(comp[["isolate", "families_ncbi", "families_ours", "families_both", "families_ncbi_only",
+                    "families_ours_only"]].to_string(index=False))
     carb_rows = g[g.gene.apply(lambda n: bool(re.search(RULES[0][1], n)))]
     if not carb_rows.empty:
         print("\nCarbapenemase genes and their contigs:")

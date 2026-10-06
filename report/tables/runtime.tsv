@@ -1,0 +1,15 @@
+rule	jobs	mean_s	total_min	max_rss_mb
+filtlong	8	144.2	19.2	
+flye	2	538.9	18.0	
+fastp	8	92.8	12.4	
+clair3	8	84.4	11.2	
+snippy	8	57.4	7.6	
+nanoplot	8	47.5	6.3	
+map_ont	8	38.9	5.2	
+fastqc_raw	8	28.0	3.7	
+fastqc_trimmed	8	24.7	3.3	
+validation_snippy	1	55.9	0.9	
+seqkit_illumina	1	17.8	0.3	
+gubbins	1	18.8	0.3	
+blast_card	10	0.8	0.1	
+iqtree	1	4.4	0.1	

@@ -1,0 +1,16 @@
+# Quick check of the workflow on a tiny dataset (2 isolates, ~5x coverage, built by scripts/make_test_data.sh).
+# Run from a fresh clone:  snakemake --sdm conda --cores 2 test --configfile config/test.yaml
+# Only settings that differ from config/config.yaml are listed here.
+samples: test/samples.tsv
+raw_dir: test/data
+resources:
+  threads: 2
+snippy:
+  mincov: 3        # 5x test data cannot reach the real threshold of 10
+  minfrac: 0.9
+ont:
+  min_length: 500
+  min_mean_q: 90
+  target_bases: 27500000   # 5x
+  clair3_model: r1041_e82_400bps_sup_v430_bacteria_finetuned
+  assemble: []

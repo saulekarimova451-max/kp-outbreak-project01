@@ -1,0 +1,2 @@
+simulated_snps	called_snps	true_positives	false_positives	false_negatives	precision	recall	f1	snippy_runtime_s
+100	97	97	0	3	1.0	0.97	0.9848	55.9
