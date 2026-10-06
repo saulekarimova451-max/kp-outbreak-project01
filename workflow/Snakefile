@@ -1,0 +1,67 @@
+# Project 01: K. pneumoniae outbreak investigation
+#
+# Run everything:              snakemake --sdm conda --cores 8
+# Run only Illumina QC:        snakemake --sdm conda --cores 8 qc_illumina
+# Run only Nanopore QC:        snakemake --sdm conda --cores 8 qc_ont
+# See what would run (no run): snakemake -n
+#
+# Inputs : config/config.yaml (thresholds), config/samples.tsv (one row per isolate),
+#          reads in data/raw/ (downloaded by scripts/fetch_reads.py)
+# Outputs: results/   (not committed; rebuilt by this workflow)
+
+import pandas as pd
+
+configfile: "config/config.yaml"
+
+SAMPLES = (
+    pd.read_csv(config.get("samples", "config/samples.tsv"), sep="\t", dtype=str)
+    .set_index("isolate", drop=False)
+)
+ISOLATES = list(SAMPLES.index)
+RAW = config.get("raw_dir", "data/raw")
+THREADS = int(config["resources"]["threads"])
+
+wildcard_constraints:
+    isolate="|".join(ISOLATES),
+
+
+def illumina_reads(wc):
+    run = SAMPLES.loc[wc.isolate, "illumina_run"]
+    return {"r1": f"{RAW}/{run}_1.fastq.gz", "r2": f"{RAW}/{run}_2.fastq.gz"}
+
+
+RAW_ILLUMINA = [
+    f"{RAW}/{SAMPLES.loc[i, 'illumina_run']}_{m}.fastq.gz" for i in ISOLATES for m in (1, 2)
+]
+
+
+def ont_reads(wc):
+    run = SAMPLES.loc[wc.isolate, "ont_run"]
+    return f"{RAW}/{run}_1.fastq.gz"
+
+
+# ---- targets -------------------------------------------------------------
+QC_ILLUMINA = [
+    "results/qc/multiqc_report.html",
+    "results/qc/seqkit_illumina.tsv",
+]
+QC_ONT = expand("results/qc/nanoplot/{isolate}/NanoStats.txt", isolate=ISOLATES)
+
+
+rule all:
+    input:
+        QC_ILLUMINA,
+        QC_ONT,
+
+
+rule qc_illumina:
+    input:
+        QC_ILLUMINA,
+
+
+rule qc_ont:
+    input:
+        QC_ONT,
+
+
+include: "rules/qc.smk"

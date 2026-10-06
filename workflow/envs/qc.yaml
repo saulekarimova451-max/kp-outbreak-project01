@@ -1,0 +1,10 @@
+name: qc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - fastqc
+  - fastp=1.3.7
+  - multiqc
+  - nanoplot
+  - seqkit
