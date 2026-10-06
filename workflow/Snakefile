@@ -5,6 +5,7 @@
 # Run only Nanopore QC:        snakemake --sdm conda --cores 8 qc_ont
 # Run mapping, SNPs and tree:  snakemake --sdm conda --cores 8 snps
 # Tables and figures:          snakemake --sdm conda --cores 8 figures
+# Nanopore analysis:           snakemake --sdm conda --cores 8 ont
 # See what would run (no run): snakemake -n
 #
 # Inputs : config/config.yaml (thresholds), config/samples.tsv (one row per isolate),
@@ -54,6 +55,10 @@ SNPS = [
     "results/core/core.txt",
     "results/tree/outbreak.treefile",
 ] + expand("results/coverage/{isolate}.mosdepth.summary.txt", isolate=ISOLATES)
+ONT = [
+    "report/tables/illumina_vs_nanopore.tsv",
+    "report/figures/illumina_vs_nanopore.png",
+] + expand("results/ont/flye/{isolate}/assembly_info.txt", isolate=config["ont"]["assemble"])
 FIGURES = [
     "report/tables/snp_pairs.tsv",
     "report/tables/clusters.tsv",
@@ -68,6 +73,7 @@ rule all:
         QC_ILLUMINA,
         QC_ONT,
         SNPS,
+        ONT,
         FIGURES,
 
 
@@ -86,6 +92,11 @@ rule snps:
         SNPS,
 
 
+rule ont:
+    input:
+        ONT,
+
+
 rule figures:
     input:
         FIGURES,
@@ -94,3 +105,4 @@ rule figures:
 include: "rules/qc.smk"
 include: "rules/map.smk"
 include: "rules/report.smk"
+include: "rules/ont.smk"

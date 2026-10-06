@@ -1,0 +1,8 @@
+name: ont
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - filtlong
+  - minimap2
+  - samtools

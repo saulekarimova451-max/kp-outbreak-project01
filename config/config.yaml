@@ -27,3 +27,11 @@ reference:
 snippy:
   mincov: 10      
   minfrac: 0.9    
+
+
+ont:
+  min_length: 500          
+  min_mean_q: 90           
+  target_bases: 550000000  
+  clair3_model: r1041_e82_400bps_sup_v430_bacteria_finetuned
+  assemble: ["6257373", "0327436-NDM"]   
