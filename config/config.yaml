@@ -19,3 +19,11 @@ qc:
 
 resources:
   threads: 8
+
+
+reference:
+  accession: GCA_050993895.1   # NCBI assembly of the earliest isolate (0326576)
+
+snippy:
+  mincov: 10      
+  minfrac: 0.9    

@@ -3,6 +3,7 @@
 # Run everything:              snakemake --sdm conda --cores 8
 # Run only Illumina QC:        snakemake --sdm conda --cores 8 qc_illumina
 # Run only Nanopore QC:        snakemake --sdm conda --cores 8 qc_ont
+# Run mapping, SNPs and tree:  snakemake --sdm conda --cores 8 snps
 # See what would run (no run): snakemake -n
 #
 # Inputs : config/config.yaml (thresholds), config/samples.tsv (one row per isolate),
@@ -46,12 +47,19 @@ QC_ILLUMINA = [
     "results/qc/seqkit_illumina.tsv",
 ]
 QC_ONT = expand("results/qc/nanoplot/{isolate}/NanoStats.txt", isolate=ISOLATES)
+SNPS = [
+    "results/core/snp_matrix_raw.tsv",
+    "results/core/snp_matrix_clean.tsv",
+    "results/core/core.txt",
+    "results/tree/outbreak.treefile",
+] + expand("results/coverage/{isolate}.mosdepth.summary.txt", isolate=ISOLATES)
 
 
 rule all:
     input:
         QC_ILLUMINA,
         QC_ONT,
+        SNPS,
 
 
 rule qc_illumina:
@@ -64,4 +72,10 @@ rule qc_ont:
         QC_ONT,
 
 
+rule snps:
+    input:
+        SNPS,
+
+
 include: "rules/qc.smk"
+include: "rules/map.smk"
