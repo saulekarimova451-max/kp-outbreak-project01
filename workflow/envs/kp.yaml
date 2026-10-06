@@ -1,0 +1,27 @@
+name: kp
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - mosdepth
+  - multiqc
+  - matplotlib
+  - fastp
+  - filtlong
+  - pandas
+  - rasusa
+  - bwa
+  - entrez-direct
+  - nanoplot
+  - python=3.11
+  - pyarrow
+  - sra-tools
+  - minimap2
+  - bcftools
+  - seaborn
+  - samtools
+  - seqkit
+  - fastqc
+  - blast
+  - snakemake
+prefix: /home/asus/miniforge3/envs/kp

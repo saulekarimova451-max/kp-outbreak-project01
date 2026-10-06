@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project: never commit data or large results
+data/
+results/
+logs/
+.snakemake/
+*.fastq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.bai
+*.vcf.gz
