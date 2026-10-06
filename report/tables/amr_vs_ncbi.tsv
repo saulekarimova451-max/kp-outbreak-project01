@@ -1,0 +1,9 @@
+isolate	ncbi_acquired_genes	our_acquired_genes	both	ncbi_only	ours_only	ncbi_point_mutations
+6257373	19	21	9	ble, emrd, fosa, mrxa, oqxa, oqxb, qnrb1, rmtb1, shv11, tem1	arnt, eptb, fosa6, klebsiellapneumoniaeompk37, mdtq, mrx, ompa, qnrb17, qnrb6, shv182, tem234, tem95	gyrA_S83I, ompK35_N116PfsTer1, parC_S80I
+0327436-NDM	9	10	2	aac6ib, catb, emrd, fosa, oqxa, oqxb, shv11	aac6ib9, arnt, eptb, fosa6, klebsiellapneumoniaeompk37, mdtq, ompa, shv182	gyrA_S83I, ompK35_N116PfsTer1, parC_S80I
+0327436-KPC	24	23	12	aac6ib, ble, catb, emrd, fosa, mrxa, oqxa, oqxb, qnrb1, rmtb1, shv11, tem	aac6ib9, arnt, eptb, fosa6, klebsiellapneumoniaeompk37, mdtq, mrx, ompa, qnrb17, rmtb, shv182	gyrA_S83I, ompK35_N116PfsTer1, parC_S80I
+0327127	21	22	9	aac6ib, ble, catb, emrd, fosa, mrxa, oqxa, oqxb, qnrb1, rmtb1, shv11, tem1	aac6ib9, arnt, brpmbl, eptb, fosa6, klebsiellapneumoniaeompk37, mdtq, mrx, ompa, qnrb6, shv182, tem148, tem217	gyrA_S83I, ompK35_N116PfsTer1, parC_S80I
+0327126	23	25	11	aac6ib, ble, catb, emrd, fosa, mrxa, oqxa, oqxb, qnrb1, rmtb1, shv11, tem1	aac6ib9, arnt, brpmbl, eptb, fosa6, klebsiellapneumoniaeompk37, mdtq, mrx, ompa, qnrb17, qnrb6, shv182, tem198, tem207	gyrA_S83I, ompK35_N116PfsTer1, parC_S80I
+0326580	21	23	9	aac6ib, ble, catb, emrd, fosa, mrxa, oqxa, oqxb, qnrb1, rmtb1, shv11, tem1	aac6ib9, arnt, brpmbl, eptb, fosa6, klebsiellapneumoniaeompk37, mdtq, mrx, ompa, qnrb6, shv182, tem34, tem76, tem95	gyrA_S83I, ompK35_N116PfsTer1, parC_S80I
+0326576	21	20	8	aac6ib, ble, catb, emrd, fosa, mrxa, oqxa, oqxb, qnrb, qnrb1, rmtb, rmtb1, shv11	aac6ib9, arnt, eptb, fosa6, klebsiellapneumoniaeompk37, mdtq, mrx, ompa, qnrb17, qnrb6, shv182, tem103	gyrA_S83I, ompK35_N116PfsTer1, parC_S80I
+0326575	22	22	10	aac6ib, ble, catb, emrd, fosa, mrxa, oqxa, oqxb, qnrb1, rmtb1, shv11, tem1	aac6ib9, arnt, eptb, fosa6, klebsiellapneumoniaeompk37, mdtq, mrx, ompa, qnrb6, shv182, tem105, tem256	gyrA_S83I, ompK35_N116PfsTer1, parC_S80I

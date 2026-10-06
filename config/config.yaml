@@ -18,7 +18,7 @@ qc:
   min_mapping_rate: 0.80
 
 resources:
-  threads: 8
+  threads: 4  
 
 
 reference:
@@ -35,3 +35,6 @@ ont:
   target_bases: 550000000  
   clair3_model: r1041_e82_400bps_sup_v430_bacteria_finetuned
   assemble: ["6257373", "0327436-NDM"]   
+
+
+pathogen_detection: report/tables/pathogen_detection_isolates.tsv

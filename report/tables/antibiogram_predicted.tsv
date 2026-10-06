@@ -1,0 +1,11 @@
+sample	Carbapenems	3rd-gen cephalosporins	Aminoglycosides	Fluoroquinolones	Sulfonamides	Trimethoprim	Tetracyclines	Phenicols	Macrolides	Rifampicin	Colistin
+0326575	R (NDM-1, NDM-24, NDM-5)	R (CTX-M-15, NDM-1, NDM-24, NDM-5)	R (AAC(6')-Ib9, aadA2)	R (QnrB6)	R (sul1)	R (dfrA12)	S*	S*	R (mphA)	R (arr-2)	S*
+0326576	R (NDM-1, NDM-5)	R (CTX-M-15, NDM-1, NDM-5)	R (AAC(6')-Ib9)	R (QnrB17, QnrB6)	R (sul1)	S*	S*	S*	R (mphA)	R (arr-2)	S*
+0326580	R (NDM-1, NDM-5)	R (CTX-M-15, NDM-1, NDM-5)	R (AAC(6')-Ib9, aadA2)	R (QnrB6)	R (sul1)	R (dfrA12)	S*	S*	R (mphA)	R (arr-2)	S*
+0327126	R (NDM-1, NDM-24, NDM-4, NDM-5)	R (CTX-M-15, NDM-1, NDM-24, NDM-4, NDM-5)	R (AAC(6')-Ib9, aadA2)	R (QnrB17, QnrB6)	R (sul1)	R (dfrA12)	S*	S*	R (mphA)	R (arr-2)	S*
+0327127	R (NDM-1, NDM-5)	R (CTX-M-15, NDM-1, NDM-5)	R (AAC(6')-Ib9, aadA2)	R (QnrB6)	R (sul1)	R (dfrA12)	S*	S*	R (mphA)	R (arr-2)	S*
+0327436-KPC	R (KPC-2, NDM-1, NDM-24, NDM-4, NDM-5)	R (CTX-M-15, KPC-2, NDM-1, NDM-24, NDM-4, NDM-5)	R (AAC(6')-Ib9, aadA2, rmtB)	R (QnrB17)	R (sul1)	R (dfrA12)	S*	S*	R (mphA)	R (arr-2)	S*
+0327436-NDM	S*	R (CTX-M-15)	R (AAC(6')-Ib9)	S*	S*	S*	S*	S*	S*	R (arr-2)	S*
+6257373	R (NDM-1, NDM-5)	R (CTX-M-15, NDM-1, NDM-5)	R (aadA2)	R (QnrB17, QnrB6)	R (sul1)	R (dfrA12)	S*	S*	R (mphA)	R (arr-2)	S*
+flye-0327436-NDM	S*	R (CTX-M-15)	S*	S*	S*	S*	S*	S*	S*	S*	S*
+flye-6257373	S*	R (CTX-M-15)	S*	S*	S*	S*	S*	S*	R (mphA)	S*	S*

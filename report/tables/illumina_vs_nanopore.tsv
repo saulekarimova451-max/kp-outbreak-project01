@@ -1,0 +1,9 @@
+isolate	snps_illumina	snps_nanopore	snps_shared	snps_illumina_only	snps_nanopore_only	snp_precision	snp_recall	indels_illumina	indels_nanopore	indels_shared	indels_nanopore_only
+0326575	12	170	12	0	158	0.071	1.0	0	7	0	7
+0326576	3	59	3	0	56	0.051	1.0	0	4	0	4
+0326580	9	168	9	0	159	0.054	1.0	0	10	0	10
+0327126	10	174	10	0	164	0.057	1.0	0	9	0	9
+0327127	8	123	8	0	115	0.065	1.0	0	8	0	8
+0327436-KPC	8	144	8	0	136	0.056	1.0	1	6	1	5
+0327436-NDM	14	180	14	0	166	0.078	1.0	1	5	1	4
+6257373	11	268	11	0	257	0.041	1.0	1	12	1	11

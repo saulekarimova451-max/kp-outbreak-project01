@@ -1,0 +1,336 @@
+sample	contig	gene	aro	identity	coverage	gene_family	mechanism	intrinsic_or_efflux	contig_length	contig_circular
+0326575	DBJDTM010000032.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326575	DBJDTM010000082.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326575	DBJDTM010000005.1	LptD	ARO:3005059	100.0	100.0	ATP-binding cassette (ABC) antibiotic efflux pump	antibiotic efflux	True		
+0326575	DBJDTM010000015.1	eptB	ARO:3005047	99.6	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0326575	DBJDTM010000015.1	ArnT	ARO:3005053	99.5	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0326575	DBJDTM010000010.1	MdtQ	ARO:3007682	99.5	100.0	Outer Membrane Porin (Opr)	reduced permeability to antibiotic	False		
+0326575	DBJDTM010000088.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326575	DBJDTM010000087.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326575	DBJDTM010000058.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326575	DBJDTM010000082.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326575	DBJDTM010000032.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326575	DBJDTM010000001.1	Klebsiella pneumoniae KpnG	ARO:3004588	99.1	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0326575	DBJDTM010000008.1	OmpA	ARO:3005044	99.8	100.0	General Bacterial Porin with reduced permeability to peptide antibiotics	reduced permeability to antibiotic	False		
+0326575	DBJDTM010000007.1	Klebsiella pneumoniae acrA	ARO:3004041	97.7	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326575	DBJDTM010000017.1	Klebsiella pneumoniae OmpK37	ARO:3004122	95.5	102.7	General Bacterial Porin with reduced permeability to beta-lactams	reduced permeability to antibiotic	False		
+0326575	DBJDTM010000058.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326575	DBJDTM010000088.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326575	DBJDTM010000087.1	mphA	ARO:3000316	99.9	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326575	DBJDTM010000095.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0326575	DBJDTM010000047.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0326575	DBJDTM010000046.1	TEM-256	ARO:3009075	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0326575	DBJDTM010000086.1	TEM-105	ARO:3000968	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0326575	DBJDTM010000083.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0326575	DBJDTM010000011.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0326575	DBJDTM010000052.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+0326575	DBJDTM010000089.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+0326575	DBJDTM010000093.1	NDM-1	ARO:3000589	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0326575	DBJDTM010000049.1	NDM-24	ARO:3004867	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0326575	DBJDTM010000094.1	NDM-5	ARO:3000467	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0326575	DBJDTM010000066.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+0326575	DBJDTM010000092.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+0326575	DBJDTM010000055.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+0326575	DBJDTM010000090.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+0326575	DBJDTM010000096.1	QnrB6	ARO:3002720	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+0326575	DBJDTM010000091.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0326575	DBJDTM010000051.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0326575	DBJDTM010000066.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+0326575	DBJDTM010000092.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+0326575	DBJDTM010000097.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0326575	DBJDTM010000005.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0326575	DBJDTM010000084.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0326575	DBJDTM010000052.1	qacEdelta1	ARO:3005010	100.0	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0326575	DBJDTM010000089.1	qacEdelta1	ARO:3005010	100.0	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0326576	DBJDTN010000028.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326576	DBJDTN010000073.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326576	DBJDTN010000007.1	LptD	ARO:3005059	100.0	100.0	ATP-binding cassette (ABC) antibiotic efflux pump	antibiotic efflux	True		
+0326576	DBJDTN010000012.1	eptB	ARO:3005047	99.6	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0326576	DBJDTN010000012.1	ArnT	ARO:3005053	99.5	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0326576	DBJDTN010000010.1	MdtQ	ARO:3007682	99.5	100.0	Outer Membrane Porin (Opr)	reduced permeability to antibiotic	False		
+0326576	DBJDTN010000078.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326576	DBJDTN010000043.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326576	DBJDTN010000073.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326576	DBJDTN010000028.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326576	DBJDTN010000001.1	Klebsiella pneumoniae KpnG	ARO:3004588	99.1	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0326576	DBJDTN010000008.1	OmpA	ARO:3005044	99.8	100.0	General Bacterial Porin with reduced permeability to peptide antibiotics	reduced permeability to antibiotic	False		
+0326576	DBJDTN010000005.1	Klebsiella pneumoniae acrA	ARO:3004041	97.7	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326576	DBJDTN010000017.1	Klebsiella pneumoniae OmpK37	ARO:3004122	95.5	102.7	General Bacterial Porin with reduced permeability to beta-lactams	reduced permeability to antibiotic	False		
+0326576	DBJDTN010000078.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326576	DBJDTN010000084.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0326576	DBJDTN010000041.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0326576	DBJDTN010000043.1	mphA	ARO:3000316	100.0	95.5	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326576	DBJDTN010000043.1	TEM-1	ARO:3000873	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0326576	DBJDTN010000077.1	TEM-103	ARO:3000966	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0326576	DBJDTN010000075.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0326576	DBJDTN010000011.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0326576	DBJDTN010000076.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+0326576	DBJDTN010000082.1	NDM-5	ARO:3000467	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0326576	DBJDTN010000081.1	NDM-1	ARO:3000589	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0326576	DBJDTN010000080.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+0326576	DBJDTN010000083.1	QnrB6	ARO:3002720	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+0326576	DBJDTN010000042.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0326576	DBJDTN010000063.1	QnrB17	ARO:3002732	99.6	80.9	quinolone resistance protein (qnr)	antibiotic target protection	False		
+0326576	DBJDTN010000042.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0326576	DBJDTN010000074.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0326576	DBJDTN010000007.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0326576	DBJDTN010000076.1	qacEdelta1	ARO:3005010	100.0	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0326580	DBJDTO010000032.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326580	DBJDTO010000083.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326580	DBJDTO010000005.1	LptD	ARO:3005059	100.0	100.0	ATP-binding cassette (ABC) antibiotic efflux pump	antibiotic efflux	True		
+0326580	DBJDTO010000015.1	eptB	ARO:3005047	99.6	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0326580	DBJDTO010000015.1	ArnT	ARO:3005053	99.5	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0326580	DBJDTO010000010.1	MdtQ	ARO:3007682	99.5	100.0	Outer Membrane Porin (Opr)	reduced permeability to antibiotic	False		
+0326580	DBJDTO010000089.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326580	DBJDTO010000050.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326580	DBJDTO010000083.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326580	DBJDTO010000032.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326580	DBJDTO010000012.1	Klebsiella pneumoniae KpnG	ARO:3004588	99.1	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0326580	DBJDTO010000008.1	OmpA	ARO:3005044	99.8	100.0	General Bacterial Porin with reduced permeability to peptide antibiotics	reduced permeability to antibiotic	False		
+0326580	DBJDTO010000006.1	Klebsiella pneumoniae acrA	ARO:3004041	97.7	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0326580	DBJDTO010000018.1	Klebsiella pneumoniae OmpK37	ARO:3004122	95.5	102.7	General Bacterial Porin with reduced permeability to beta-lactams	reduced permeability to antibiotic	False		
+0326580	DBJDTO010000050.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326580	DBJDTO010000089.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0326580	DBJDTO010000046.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0326580	DBJDTO010000096.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0326580	DBJDTO010000088.1	TEM-95	ARO:3000962	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0326580	DBJDTO010000050.1	TEM-76	ARO:3000942	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0326580	DBJDTO010000087.1	TEM-34	ARO:3000904	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0326580	DBJDTO010000082.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0326580	DBJDTO010000011.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0326580	DBJDTO010000053.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+0326580	DBJDTO010000086.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+0326580	DBJDTO010000094.1	NDM-5	ARO:3000467	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0326580	DBJDTO010000093.1	NDM-1	ARO:3000589	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0326580	DBJDTO010000051.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+0326580	DBJDTO010000092.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+0326580	DBJDTO010000063.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+0326580	DBJDTO010000091.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+0326580	DBJDTO010000095.1	QnrB6	ARO:3002720	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+0326580	DBJDTO010000056.1	QnrB6	ARO:3002720	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+0326580	DBJDTO010000090.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0326580	DBJDTO010000051.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0326580	DBJDTO010000092.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+0326580	DBJDTO010000051.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+0326580	DBJDTO010000080.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0326580	DBJDTO010000097.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0326580	DBJDTO010000005.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0326580	DBJDTO010000084.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0326580	DBJDTO010000053.1	BRP(MBL)	ARO:3001205	100.0	100.0	Bleomycin resistant protein	antibiotic inactivation	False		
+0326580	DBJDTO010000086.1	qacEdelta1	ARO:3005010	100.0	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0327126	DBJDTR010000030.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327126	DBJDTR010000079.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327126	DBJDTR010000006.1	LptD	ARO:3005059	100.0	100.0	ATP-binding cassette (ABC) antibiotic efflux pump	antibiotic efflux	True		
+0327126	DBJDTR010000012.1	eptB	ARO:3005047	99.6	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0327126	DBJDTR010000012.1	ArnT	ARO:3005053	99.5	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0327126	DBJDTR010000009.1	MdtQ	ARO:3007682	99.5	100.0	Outer Membrane Porin (Opr)	reduced permeability to antibiotic	False		
+0327126	DBJDTR010000083.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0327126	DBJDTR010000056.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0327126	DBJDTR010000079.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327126	DBJDTR010000030.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327126	DBJDTR010000001.1	Klebsiella pneumoniae KpnG	ARO:3004588	99.1	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0327126	DBJDTR010000008.1	OmpA	ARO:3005044	99.8	100.0	General Bacterial Porin with reduced permeability to peptide antibiotics	reduced permeability to antibiotic	False		
+0327126	DBJDTR010000007.1	Klebsiella pneumoniae acrA	ARO:3004041	97.7	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327126	DBJDTR010000024.1	Klebsiella pneumoniae OmpK37	ARO:3004122	95.5	102.7	General Bacterial Porin with reduced permeability to beta-lactams	reduced permeability to antibiotic	False		
+0327126	DBJDTR010000083.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0327126	DBJDTR010000056.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0327126	DBJDTR010000044.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0327126	DBJDTR010000093.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0327126	DBJDTR010000082.1	TEM-198	ARO:3001057	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0327126	DBJDTR010000050.1	TEM-207	ARO:3001384	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0327126	DBJDTR010000080.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0327126	DBJDTR010000011.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0327126	DBJDTR010000081.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+0327126	DBJDTR010000049.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+0327126	DBJDTR010000090.1	NDM-5	ARO:3000467	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0327126	DBJDTR010000089.1	NDM-24	ARO:3004867	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0327126	DBJDTR010000088.1	NDM-4	ARO:3002355	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0327126	DBJDTR010000087.1	NDM-1	ARO:3000589	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0327126	DBJDTR010000086.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+0327126	DBJDTR010000085.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+0327126	DBJDTR010000047.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+0327126	DBJDTR010000062.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+0327126	DBJDTR010000091.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+0327126	DBJDTR010000092.1	QnrB17	ARO:3002732	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+0327126	DBJDTR010000052.1	QnrB6	ARO:3002720	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+0327126	DBJDTR010000084.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0327126	DBJDTR010000047.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0327126	DBJDTR010000047.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+0327126	DBJDTR010000086.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+0327126	DBJDTR010000085.1	dfrA12	ARO:3002858	99.8	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+0327126	DBJDTR010000094.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0327126	DBJDTR010000068.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0327126	DBJDTR010000006.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0327126	DBJDTR010000077.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0327126	DBJDTR010000049.1	BRP(MBL)	ARO:3001205	100.0	100.0	Bleomycin resistant protein	antibiotic inactivation	False		
+0327126	DBJDTR010000081.1	qacEdelta1	ARO:3005010	100.0	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0327127	DBJDTS010000031.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327127	DBJDTS010000082.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327127	DBJDTS010000006.1	LptD	ARO:3005059	100.0	100.0	ATP-binding cassette (ABC) antibiotic efflux pump	antibiotic efflux	True		
+0327127	DBJDTS010000013.1	eptB	ARO:3005047	99.6	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0327127	DBJDTS010000013.1	ArnT	ARO:3005053	99.5	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0327127	DBJDTS010000005.1	MdtQ	ARO:3007682	99.5	100.0	Outer Membrane Porin (Opr)	reduced permeability to antibiotic	False		
+0327127	DBJDTS010000049.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0327127	DBJDTS010000031.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327127	DBJDTS010000082.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327127	DBJDTS010000001.1	Klebsiella pneumoniae KpnG	ARO:3004588	99.1	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0327127	DBJDTS010000009.1	OmpA	ARO:3005044	99.8	100.0	General Bacterial Porin with reduced permeability to peptide antibiotics	reduced permeability to antibiotic	False		
+0327127	DBJDTS010000008.1	Klebsiella pneumoniae acrA	ARO:3004041	97.7	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327127	DBJDTS010000024.1	Klebsiella pneumoniae OmpK37	ARO:3004122	95.5	102.7	General Bacterial Porin with reduced permeability to beta-lactams	reduced permeability to antibiotic	False		
+0327127	DBJDTS010000049.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0327127	DBJDTS010000093.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0327127	DBJDTS010000094.1	mphA	ARO:3000316	99.9	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0327127	DBJDTS010000061.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0327127	DBJDTS010000092.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0327127	DBJDTS010000085.1	TEM-148	ARO:3001015	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0327127	DBJDTS010000083.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0327127	DBJDTS010000056.1	TEM-217	ARO:3001394	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+0327127	DBJDTS010000010.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0327127	DBJDTS010000051.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+0327127	DBJDTS010000086.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+0327127	DBJDTS010000089.1	NDM-5	ARO:3000467	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0327127	DBJDTS010000088.1	NDM-1	ARO:3000589	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0327127	DBJDTS010000087.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+0327127	DBJDTS010000066.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+0327127	DBJDTS010000055.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+0327127	DBJDTS010000090.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+0327127	DBJDTS010000052.1	QnrB6	ARO:3002720	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+0327127	DBJDTS010000091.1	QnrB6	ARO:3002720	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+0327127	DBJDTS010000049.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0327127	DBJDTS010000084.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0327127	DBJDTS010000087.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+0327127	DBJDTS010000066.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+0327127	DBJDTS010000095.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0327127	DBJDTS010000062.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0327127	DBJDTS010000006.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0327127	DBJDTS010000080.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0327127	DBJDTS010000075.1	BRP(MBL)	ARO:3001205	100.0	100.0	Bleomycin resistant protein	antibiotic inactivation	False		
+0327127	DBJDTS010000051.1	qacEdelta1	ARO:3005010	100.0	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0327127	DBJDTS010000086.1	qacEdelta1	ARO:3005010	100.0	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0327436-KPC	DBJDTQ010000024.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327436-KPC	DBJDTQ010000072.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327436-KPC	DBJDTQ010000006.1	LptD	ARO:3005059	100.0	100.0	ATP-binding cassette (ABC) antibiotic efflux pump	antibiotic efflux	True		
+0327436-KPC	DBJDTQ010000014.1	eptB	ARO:3005047	99.6	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0327436-KPC	DBJDTQ010000014.1	ArnT	ARO:3005053	99.5	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0327436-KPC	DBJDTQ010000009.1	MdtQ	ARO:3007682	99.5	100.0	Outer Membrane Porin (Opr)	reduced permeability to antibiotic	False		
+0327436-KPC	DBJDTQ010000052.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000072.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327436-KPC	DBJDTQ010000024.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327436-KPC	DBJDTQ010000001.1	Klebsiella pneumoniae KpnG	ARO:3004588	99.1	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0327436-KPC	DBJDTQ010000007.1	OmpA	ARO:3005044	99.8	100.0	General Bacterial Porin with reduced permeability to peptide antibiotics	reduced permeability to antibiotic	False		
+0327436-KPC	DBJDTQ010000005.1	Klebsiella pneumoniae acrA	ARO:3004041	97.7	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327436-KPC	DBJDTQ010000017.1	Klebsiella pneumoniae OmpK37	ARO:3004122	95.5	102.7	General Bacterial Porin with reduced permeability to beta-lactams	reduced permeability to antibiotic	False		
+0327436-KPC	DBJDTQ010000052.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000075.1	KPC-2	ARO:3002312	100.0	100.0	KPC beta-lactamase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000038.1	KPC-2	ARO:3002312	100.0	100.0	KPC beta-lactamase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000024.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000078.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000002.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000073.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000077.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+0327436-KPC	DBJDTQ010000084.1	NDM-5	ARO:3000467	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000046.1	NDM-4	ARO:3002355	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000082.1	NDM-1	ARO:3000589	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000083.1	NDM-24	ARO:3004867	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000043.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000081.1	rmtB	ARO:3000860	100.0	100.0	16S rRNA methyltransferase (G1405)	antibiotic target alteration	False		
+0327436-KPC	DBJDTQ010000079.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+0327436-KPC	DBJDTQ010000085.1	QnrB17	ARO:3002732	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+0327436-KPC	DBJDTQ010000043.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000043.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+0327436-KPC	DBJDTQ010000063.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000006.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000074.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0327436-KPC	DBJDTQ010000077.1	qacEdelta1	ARO:3005010	100.0	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0327436-NDM	DBJDTV010000026.1	oqxB	ARO:3003923	98.6	96.5	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327436-NDM	DBJDTV010000059.1	oqxB	ARO:3003923	98.6	96.5	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327436-NDM	DBJDTV010000007.1	LptD	ARO:3005059	100.0	100.0	ATP-binding cassette (ABC) antibiotic efflux pump	antibiotic efflux	True		
+0327436-NDM	DBJDTV010000012.1	eptB	ARO:3005047	99.6	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0327436-NDM	DBJDTV010000012.1	ArnT	ARO:3005053	99.5	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+0327436-NDM	DBJDTV010000010.1	MdtQ	ARO:3007682	99.5	100.0	Outer Membrane Porin (Opr)	reduced permeability to antibiotic	False		
+0327436-NDM	DBJDTV010000026.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327436-NDM	DBJDTV010000059.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327436-NDM	DBJDTV010000001.1	Klebsiella pneumoniae KpnG	ARO:3004588	99.1	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+0327436-NDM	DBJDTV010000009.1	OmpA	ARO:3005044	99.8	100.0	General Bacterial Porin with reduced permeability to peptide antibiotics	reduced permeability to antibiotic	False		
+0327436-NDM	DBJDTV010000004.1	Klebsiella pneumoniae acrA	ARO:3004041	97.7	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+0327436-NDM	DBJDTV010000016.1	Klebsiella pneumoniae OmpK37	ARO:3004122	95.5	102.7	General Bacterial Porin with reduced permeability to beta-lactams	reduced permeability to antibiotic	False		
+0327436-NDM	DBJDTV010000026.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000063.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000057.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000006.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000038.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000061.1	AAC(6')-Ib9	ARO:3002580	99.5	94.8	AAC(6')	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000062.1	AAC(6')-Ib9	ARO:3002580	99.3	94.8	AAC(6')	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000061.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000038.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000062.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000007.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+0327436-NDM	DBJDTV010000060.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+6257373	DBJDTT010000085.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+6257373	DBJDTT010000030.1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+6257373	DBJDTT010000007.1	LptD	ARO:3005059	100.0	100.0	ATP-binding cassette (ABC) antibiotic efflux pump	antibiotic efflux	True		
+6257373	DBJDTT010000013.1	eptB	ARO:3005047	99.6	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+6257373	DBJDTT010000013.1	ArnT	ARO:3005053	99.5	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False		
+6257373	DBJDTT010000005.1	MdtQ	ARO:3007682	99.5	100.0	Outer Membrane Porin (Opr)	reduced permeability to antibiotic	False		
+6257373	DBJDTT010000090.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+6257373	DBJDTT010000055.1	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+6257373	DBJDTT010000085.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+6257373	DBJDTT010000030.1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+6257373	DBJDTT010000001.1	Klebsiella pneumoniae KpnG	ARO:3004588	99.1	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+6257373	DBJDTT010000006.1	OmpA	ARO:3005044	99.8	100.0	General Bacterial Porin with reduced permeability to peptide antibiotics	reduced permeability to antibiotic	False		
+6257373	DBJDTT010000009.1	Klebsiella pneumoniae acrA	ARO:3004041	97.7	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True		
+6257373	DBJDTT010000023.1	Klebsiella pneumoniae OmpK37	ARO:3004122	95.5	102.7	General Bacterial Porin with reduced permeability to beta-lactams	reduced permeability to antibiotic	False		
+6257373	DBJDTT010000090.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+6257373	DBJDTT010000055.1	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False		
+6257373	DBJDTT010000096.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+6257373	DBJDTT010000067.1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False		
+6257373	DBJDTT010000089.1	TEM-234	ARO:3005265	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+6257373	DBJDTT010000006.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+6257373	DBJDTT010000047.1	TEM-95	ARO:3000962	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False		
+6257373	DBJDTT010000087.1	SHV-182	ARO:3001364	99.9	100.0	SHV beta-lactamase	antibiotic inactivation	False		
+6257373	DBJDTT010000049.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+6257373	DBJDTT010000088.1	sul1	ARO:3000410	100.0	100.0	sulfonamide resistant sul	antibiotic target replacement	False		
+6257373	DBJDTT010000093.1	NDM-1	ARO:3000589	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+6257373	DBJDTT010000068.1	NDM-5	ARO:3000467	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+6257373	DBJDTT010000094.1	NDM-5	ARO:3000467	100.0	100.0	NDM beta-lactamase	antibiotic inactivation	False		
+6257373	DBJDTT010000063.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+6257373	DBJDTT010000092.1	aadA2	ARO:3002602	99.9	100.0	ANT(3'')	antibiotic inactivation	False		
+6257373	DBJDTT010000091.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+6257373	DBJDTT010000061.1	ErmB	ARO:3000375	99.2	100.0	Erm-like 23S rRNA methyltransferase	antibiotic target alteration	False		
+6257373	DBJDTT010000051.1	QnrB17	ARO:3002732	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+6257373	DBJDTT010000095.1	QnrB6	ARO:3002720	99.3	100.0	quinolone resistance protein (qnr)	antibiotic target protection	False		
+6257373	DBJDTT010000092.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+6257373	DBJDTT010000063.1	dfrA12	ARO:3002858	100.0	100.0	trimethoprim resistant dihydrofolate reductase dfr	antibiotic target replacement	False		
+6257373	DBJDTT010000080.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+6257373	DBJDTT010000097.1	arr-2	ARO:3002847	100.0	100.0	rifampin ADP-ribosyltransferase (Arr)	antibiotic inactivation	False		
+6257373	DBJDTT010000086.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+6257373	DBJDTT010000007.1	FosA6	ARO:3004111	99.5	100.0	fosfomycin thiol transferase	antibiotic inactivation	False		
+6257373	DBJDTT010000033.1	Klebsiella pneumoniae KpnE	ARO:3004580	99.4	100.0	small multidrug resistance (SMR) antibiotic efflux pump	antibiotic efflux	True		
+6257373	DBJDTT010000049.1	qacEdelta1	ARO:3005010	100.0	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+6257373	DBJDTT010000088.1	qacEdelta1	ARO:3005010	100.0	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True		
+6257373	DBJDTT010000033.1	Klebsiella pneumoniae KpnF	ARO:3004583	100.0	100.0	small multidrug resistance (SMR) antibiotic efflux pump	antibiotic efflux	True		
+flye-0327436-NDM	contig_1	oqxB	ARO:3003923	98.6	96.5	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True	5264332.0	N
+flye-0327436-NDM	contig_1	LptD	ARO:3005059	100.0	100.0	ATP-binding cassette (ABC) antibiotic efflux pump	antibiotic efflux	True	5264332.0	N
+flye-0327436-NDM	contig_1	eptB	ARO:3005047	99.6	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False	5264332.0	N
+flye-0327436-NDM	contig_1	ArnT	ARO:3005053	99.5	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False	5264332.0	N
+flye-0327436-NDM	contig_1	MdtQ	ARO:3007682	99.5	100.0	Outer Membrane Porin (Opr)	reduced permeability to antibiotic	False	5264332.0	N
+flye-0327436-NDM	contig_1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True	5264332.0	N
+flye-0327436-NDM	contig_1	Klebsiella pneumoniae KpnG	ARO:3004588	99.1	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True	5264332.0	N
+flye-0327436-NDM	contig_1	OmpA	ARO:3005044	99.8	100.0	General Bacterial Porin with reduced permeability to peptide antibiotics	reduced permeability to antibiotic	False	5264332.0	N
+flye-0327436-NDM	contig_1	Klebsiella pneumoniae acrA	ARO:3004041	97.7	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True	5264332.0	N
+flye-0327436-NDM	contig_1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False	5264332.0	N
+flye-0327436-NDM	contig_2	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False	187471.0	N
+flye-6257373	contig_1	oqxB	ARO:3003923	98.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True	5489948.0	Y
+flye-6257373	contig_1	LptD	ARO:3005059	100.0	100.0	ATP-binding cassette (ABC) antibiotic efflux pump	antibiotic efflux	True	5489948.0	Y
+flye-6257373	contig_1	eptB	ARO:3005047	99.6	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False	5489948.0	Y
+flye-6257373	contig_1	ArnT	ARO:3005053	99.5	100.0	pmr phosphoethanolamine transferase	antibiotic target alteration	False	5489948.0	Y
+flye-6257373	contig_1	MdtQ	ARO:3007682	99.5	100.0	Outer Membrane Porin (Opr)	reduced permeability to antibiotic	False	5489948.0	Y
+flye-6257373	contig_3	Mrx	ARO:3003839	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False	81496.0	Y
+flye-6257373	contig_1	oqxA	ARO:3003922	99.5	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True	5489948.0	Y
+flye-6257373	contig_1	Klebsiella pneumoniae KpnG	ARO:3004588	99.1	100.0	major facilitator superfamily (MFS) antibiotic efflux pump	antibiotic efflux	True	5489948.0	Y
+flye-6257373	contig_1	OmpA	ARO:3005044	99.8	100.0	General Bacterial Porin with reduced permeability to peptide antibiotics	reduced permeability to antibiotic	False	5489948.0	Y
+flye-6257373	contig_1	Klebsiella pneumoniae acrA	ARO:3004041	97.7	100.0	resistance-nodulation-cell division (RND) antibiotic efflux pump	antibiotic efflux	True	5489948.0	Y
+flye-6257373	contig_3	mphA	ARO:3000316	100.0	100.0	macrolide phosphotransferase (MPH)	antibiotic inactivation	False	81496.0	Y
+flye-6257373	contig_1	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False	5489948.0	Y
+flye-6257373	contig_2	CTX-M-15	ARO:3001878	100.0	100.0	CTX-M beta-lactamase	antibiotic inactivation	False	179554.0	Y
+flye-6257373	contig_3	TEM-257	ARO:3009076	99.9	100.0	TEM beta-lactamase	antibiotic inactivation	False	81496.0	Y

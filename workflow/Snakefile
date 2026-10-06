@@ -6,6 +6,7 @@
 # Run mapping, SNPs and tree:  snakemake --sdm conda --cores 8 snps
 # Tables and figures:          snakemake --sdm conda --cores 8 figures
 # Nanopore analysis:           snakemake --sdm conda --cores 8 ont
+# Resistance genes (BLAST):    snakemake --sdm conda --cores 8 amr
 # See what would run (no run): snakemake -n
 #
 # Inputs : config/config.yaml (thresholds), config/samples.tsv (one row per isolate),
@@ -58,7 +59,16 @@ SNPS = [
 ONT = [
     "report/tables/illumina_vs_nanopore.tsv",
     "report/figures/illumina_vs_nanopore.png",
+    "report/tables/snp_matrix_nanopore.tsv",
+    "report/tables/nanopore_only_snp_profile.tsv",
+    "report/figures/illumina_vs_nanopore_distances.png",
 ] + expand("results/ont/flye/{isolate}/assembly_info.txt", isolate=config["ont"]["assemble"])
+AMR = [
+    "report/tables/amr_genes.tsv",
+    "report/tables/antibiogram_predicted.tsv",
+    "report/tables/amr_vs_ncbi.tsv",
+    "report/figures/amr_genes.png",
+]
 FIGURES = [
     "report/tables/snp_pairs.tsv",
     "report/tables/clusters.tsv",
@@ -74,6 +84,7 @@ rule all:
         QC_ONT,
         SNPS,
         ONT,
+        AMR,
         FIGURES,
 
 
@@ -97,6 +108,11 @@ rule ont:
         ONT,
 
 
+rule amr:
+    input:
+        AMR,
+
+
 rule figures:
     input:
         FIGURES,
@@ -106,3 +122,4 @@ include: "rules/qc.smk"
 include: "rules/map.smk"
 include: "rules/report.smk"
 include: "rules/ont.smk"
+include: "rules/amr.smk"

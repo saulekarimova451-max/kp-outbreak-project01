@@ -1,0 +1,10 @@
+isolate	nanopore_only_snps	in_all_isolates	in_one_isolate_only	in_GATC	in_CCWGG	in_GATC_pct	in_GATC_genome_background_pct	in_CCWGG_pct	in_CCWGG_genome_background_pct
+0326575	158	20	7	4	8	2.5	2.2	5.1	1.8
+0326576	56	20	8	2	1	3.6	2.2	1.8	1.8
+0326580	159	20	5	3	7	1.9	2.2	4.4	1.8
+0327126	164	20	4	3	8	1.8	2.2	4.9	1.8
+0327127	115	20	3	3	2	2.6	2.2	1.7	1.8
+0327436-KPC	136	20	51	5	7	3.7	2.2	5.1	1.8
+0327436-NDM	166	20	25	2	8	1.2	2.2	4.8	1.8
+6257373	257	20	81	5	7	1.9	2.2	2.7	1.8
+ALL	1211	160	184	27	48	2.2	2.2	4.0	1.8

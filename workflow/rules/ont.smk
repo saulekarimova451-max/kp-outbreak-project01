@@ -123,3 +123,28 @@ rule flye:
         "../envs/asm.yaml"
     shell:
         "flye --nano-hq {input} --out-dir {params.outdir} --threads {threads} > {log} 2>&1"
+
+
+rule nanopore_distances:
+    """Would Nanopore alone give the same outbreak call? Distances + profile of Nanopore-only SNPs."""
+    input:
+        illumina=expand("results/snippy/{isolate}/snps.vcf", isolate=ISOLATES),
+        ont=expand("results/ont/clair3/{isolate}/merge_output.vcf.gz", isolate=ISOLATES),
+        ref="resources/reference.fasta",
+        script="scripts/nanopore_distances.py",
+        helper="scripts/compare_platforms.py",
+    output:
+        matrix="report/tables/snp_matrix_nanopore.tsv",
+        profile="report/tables/nanopore_only_snp_profile.tsv",
+        figure="report/figures/illumina_vs_nanopore_distances.png",
+    params:
+        isolates=",".join(ISOLATES),
+    log:
+        "logs/nanopore_distances.log",
+    conda:
+        "../envs/plot.yaml"
+    shell:
+        "python {input.script} --ref {input.ref} --isolates {params.isolates} "
+        "--illumina 'results/snippy/{{iso}}/snps.vcf' "
+        "--ont 'results/ont/clair3/{{iso}}/merge_output.vcf.gz' "
+        "--matrix {output.matrix} --profile {output.profile} --figure {output.figure} > {log} 2>&1"
